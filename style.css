@@ -38,13 +38,14 @@ body{
 
 }
 #tribute-info{
+    margin: auto;
+    padding: auto;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 .list{
-    max-width: 100%;
-    display: block;
+    width: 80%;
     height: auto;
     margin: 0 auto;
 }
@@ -57,6 +58,8 @@ img {
   .link{
     text-align: center;
   }
-  @media screen  {
-    
-  }
+@media only screen and (max-width: 370px){
+    #main{
+        max-width: 350px;
+    }   
+}
